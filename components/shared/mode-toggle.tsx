@@ -20,8 +20,6 @@ const ModeToggle = () => {
 		setMounted(true);
 	}, []);
 
-	console.log("theme,theme", theme);
-
 	if (!mounted) return null;
 	return (
 		<DropdownMenu>
